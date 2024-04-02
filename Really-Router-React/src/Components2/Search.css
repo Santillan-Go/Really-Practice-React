@@ -1,0 +1,40 @@
+
+
+.formSearch{
+
+    width: 50%;
+    height: inherit;
+    border: 2px solid;
+    border-radius: .8rem;
+    padding: 0.5ren;
+   
+}
+
+.div-form{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+   
+}
+
+.searchInput{
+    width: 80%;
+    height: 90%;
+    border-radius: .8rem;
+border: none;
+outline: none;
+font-size: 1.4rem;
+}
+
+.searchbtn{
+    width: 20%;   
+    height: 90%;
+    border-radius: .8rem;
+    border: none;
+    cursor: pointer;
+ 
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}

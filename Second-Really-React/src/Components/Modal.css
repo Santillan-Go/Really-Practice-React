@@ -1,0 +1,48 @@
+.modal{
+
+position: fixed;
+z-index: 999;
+top:0%;
+bottom: 0;
+left: 0;
+width: 100%;
+min-height: 100vh;
+background-color: rgba(0, 0 , 0, 0.5);
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+
+.modal.is-open{
+    display:flex ;
+    
+}
+
+.modal-conteiner{
+ position: relative; 
+padding:1rem ;
+ max-width:480px ;
+ min-width: 320px;
+ min-height: 600px;
+ min-height: 480px;
+ background-color: black;
+ overflow-y: auto;
+}
+
+.modal-close{
+    position: absolute;
+    top: 1rem;
+    right:1rem ;
+}
+
+.modal .img{
+   display: block;
+    background-color: aliceblue;
+    width: 70%;
+ height: 300px;
+ position: absolute;
+ left: 50%;
+ top: 15%;
+ transform: translate(-50%,0);
+}

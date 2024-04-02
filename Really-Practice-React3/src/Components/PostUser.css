@@ -1,0 +1,104 @@
+.postUser{
+   
+width: 100%;
+height: 86vh;
+
+display: flex;
+flex-direction: column;
+margin: 10px 0;
+box-shadow: 0 0 10px rgb(51, 51, 51);
+background-color: rgb(69, 68, 68);
+border-radius: 10px;
+
+}
+
+.header-content{
+
+    /* flex-basis: 45px; */
+    height: 55px;
+    background-color: rgb(69, 68, 68);
+    display: flex;
+    justify-content: space-between;
+}
+.header-content figure{
+    width: 150px;
+    display: flex;
+  
+}
+/* .header-content figure figcaption{
+    flex-grow: 1;
+} */
+
+.content-profile{
+    width: 40%;
+    height: 100%;
+}
+.name-content{
+    width: 60%;
+    height: 100%;
+}
+.name-content p{
+    text-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1rem;
+}
+.profile{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto 0;
+margin: 9px;
+
+}
+
+.images-content{
+    flex-grow: 1;
+background-color: rgb(41, 41, 41);
+max-height: 385px;
+display: flex;
+justify-content: center;
+
+}
+.images-content img{
+    width: 80%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.actions-content{
+    /* flex-basis: 50px; */
+    height: 70px;
+
+
+display: flex;
+flex-direction: column;
+}
+
+.actions-info{
+    flex-grow: 1;
+    background-color: rgb(69, 68, 68);
+    border-bottom: 0.3px solid white 
+}
+
+.actions-buttons{
+  
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.actions-buttons button{
+    width:33.333333333333333333333333333333% ;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: .8rem;
+    background-color: rgb(69, 68, 68);
+    color: white;
+    cursor: pointer;
+}

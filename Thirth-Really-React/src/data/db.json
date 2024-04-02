@@ -1,0 +1,29 @@
+{
+"STAFF":[
+
+
+    {
+        "name":"pedro",
+        "id":1
+    },
+
+    {
+        "name":"Eduardo",
+        "id":2
+    },
+    {
+        "name":"lalo",
+        "id":3
+    },
+    {
+        "name":"lik",
+        "id":4
+    },
+    {
+        "name":"raet",
+        "id":5
+    }
+]
+
+
+}

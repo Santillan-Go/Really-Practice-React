@@ -1,0 +1,15 @@
+.nav-menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+
+.nav-menu li{
+    list-style: none;
+}
+
+
+.nav-menu a{
+text-decoration: none;
+}

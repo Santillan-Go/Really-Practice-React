@@ -1,0 +1,38 @@
+
+.header{
+    width: 100vw;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    
+align-items: center;
+}
+
+
+.nav{
+    display: flex;
+  margin-right: 1rem;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0)
+}
+
+
+
+.nav a:hover{
+
+    color: rgb(88, 88, 243);
+}
+
+.Logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+
+
+
+.Form-flex{
+    display: flex;
+    width: 500px;
+}
+
+
+
+
+.search-menu{
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    color:rgb(148, 148, 148);
+    font-size: 1rem;
+    padding: 7px;
+
+}
+
+.search-btn{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+}
